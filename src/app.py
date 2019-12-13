@@ -89,7 +89,7 @@ def main():
 
     st.markdown(
         '''
-    ### Who and Why are making the trips?
+    ### Who and Why are they making the trips?
     Distributions of Trip Purpose and Income
     '''
     )
