@@ -16,6 +16,7 @@ __pycache__
 migration
 .idea
 .vscode
+*.pyc
 
 # Installer logs
 pip-log.txt

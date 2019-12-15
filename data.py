@@ -10,11 +10,11 @@ import streamlit as st
 from bokeh.models import ColumnDataSource
 
 
-DATA_FOLDER = r"../data"
+DATA_FOLDER = "data"
 OD_TRIP_FILE_PURPOSE = os.path.join(DATA_FOLDER, r"od_trip_purpose_counts.csv.gz")
 OD_TRIP_FILE_DEMOGRAPHICS = os.path.join(DATA_FOLDER, r"od_demographics_counts.csv.gz")
 OD_TRIP_FILE_ATTRIBUTES = os.path.join(DATA_FOLDER, r"od_trip_attributes_counts_all.csv.gz")
-ZONE_SHAPE_FILE = os.path.join(DATA_FOLDER, '../data/zone.shp')
+ZONE_SHAPE_FILE = os.path.join(DATA_FOLDER, 'zone.shp')
 
 
 INDEX_COLUMNS = ["Origin Zone ID", "Destination Zone ID", "Day Type", "Day Part"]

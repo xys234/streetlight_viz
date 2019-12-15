@@ -12,4 +12,4 @@ This project builds a web app to visualize Streetlight Data. The purpose is to s
 
 ## Implementation
 
-The data processing uses `numpy`, `pandas`, and `geopandas`. The plots are created using `bokeh`. The web app uses the `streamlit` package.
+The data processing uses `numpy`, `pandas`, and `geopandas`. The plots are created using `bokeh`. The web app is implemeted with the `streamlit` package.
